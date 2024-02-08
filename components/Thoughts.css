@@ -1,0 +1,45 @@
+.thoughts-container {
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  overflow-y: scroll;
+  background-color: var(--main-bg-color);
+}
+.grid {
+  border: 1px solid var(--main-text-color);
+  border-radius: 3px;
+  /*   background-color: var(--secondary-bg-color); */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.message {
+  grid-column: span 2;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 0;
+}
+.button-container {
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0 0 3px 20px;
+
+  p {
+    margin: 0;
+    align-self: center;
+  }
+}
+
+.date {
+  text-align: right;
+  margin: 0;
+  padding: 0 20px;
+  color: #c4c1c1;
+  grid-column: span 1;
+  justify-self: end;
+  align-self: center;
+}

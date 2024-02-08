@@ -1,0 +1,17 @@
+.heart,
+.heart-liked {
+  border-radius: 50%;
+  border: none;
+  height: 30px;
+  width: 30px;
+}
+.heart {
+  margin: 0;
+  padding: 0;
+}
+.heart:hover {
+  background-color: var(--main-contrast-color);
+}
+.heart:active {
+  background-color: var(--secondary-contrast-color);
+}
