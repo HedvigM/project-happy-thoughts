@@ -7,7 +7,7 @@ export async function Thoughts() {
   const thoughts = await prisma.thoughts.findMany();
 
   return (
-    <div className="content-container  thoughts-container">
+    <div className="thoughts-container">
       {thoughts
         .sort((a, b) => a.id - b.id)
         .reverse()

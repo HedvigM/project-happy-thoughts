@@ -16,6 +16,13 @@ export function InputContainer() {
       <div className="letter-counter">
         <p>{140 - thought.length} / 140 </p>
       </div>
+      <button
+        type="submit"
+        className="send-button"
+        disabled={thought.length > 140}
+      >
+        <p>❤️ Send happy Thought! ❤️</p>
+      </button>
     </>
   );
 }

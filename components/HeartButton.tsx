@@ -22,7 +22,7 @@ export async function HeartButton(id: HeartButtonProps) {
   }
   return (
     <form action={heartIncrease}>
-      <button className={"heart"} type="submit">
+      <button className="heart" type="submit">
         <span role="img" aria-label="heart emoji">
           {" "}
           ❤️

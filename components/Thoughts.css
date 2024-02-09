@@ -5,15 +5,17 @@
   gap: 5px;
   overflow-y: scroll;
   background-color: var(--main-bg-color);
+  max-width: var(--content-max-width);
+  min-width: var(--content-min-width);
+  justify-self: center;
+  width: 100%;
 }
 .grid {
-  border: 1px solid var(--main-text-color);
-  border-radius: 3px;
-  /*   background-color: var(--secondary-bg-color); */
   display: grid;
   grid-template-columns: 1fr 1fr;
+  border: 1px solid var(--main-text-color);
+  border-radius: 3px;
 }
-
 .message {
   grid-column: span 2;
   text-align: center;
@@ -33,7 +35,6 @@
     align-self: center;
   }
 }
-
 .date {
   text-align: right;
   margin: 0;

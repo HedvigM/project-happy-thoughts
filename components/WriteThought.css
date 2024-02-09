@@ -6,38 +6,18 @@
   justify-content: center;
   align-items: center;
 }
-.list {
+
+.form-container {
   border: 1px solid black;
   box-shadow: 8px 8px black;
   align-self: center;
+  max-width: var(--content-max-width);
+  min-width: var(--content-min-width);
+  justify-self: center;
+  width: 100%;
 }
-.form-container {
+.form-inner-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-/* Ha knappen i indexfilen, men ha specifika regler här, såsom hovereffekten som skall vara olika på de båda ställena */
-.send-button {
-  background-color: var(--main-text-color);
-  margin: 8px;
-  padding: 0;
-  border: none;
-  border-radius: 5px;
-
-  p {
-    color: var(--main-bg-color);
-    font-size: 1.2em;
-    margin: 0;
-    padding: 5px;
-  }
-
-  :hover {
-    background-color: var(--main-contrast-color);
-    color: black;
-    border-radius: 5px;
-  }
-  :active {
-    background-color: var(--secondary-contrast-color);
-  }
 }

@@ -1,11 +1,8 @@
-.heart,
-.heart-liked {
+.heart {
   border-radius: 50%;
   border: none;
   height: 30px;
   width: 30px;
-}
-.heart {
   margin: 0;
   padding: 0;
 }
