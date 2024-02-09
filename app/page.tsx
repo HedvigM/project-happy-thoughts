@@ -5,7 +5,7 @@ import { WriteThought } from "../components/WriteThought";
 import { Thoughts } from "../components/Thoughts";
 
 export const metadata: Metadata = {
-  title: "Happy thoughts 💛",
+  title: "Happy thoughts",
 };
 
 export default function Page() {
